@@ -1,0 +1,26 @@
+spring:
+  liquibase:
+    enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:8889/jcrent?autoReconnect=true&useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: MYSQL
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    com.jc_rent.jc_rent: DEBUG
+
+jwt:
+  token:
+    secret: jcrent
+    expired: 3600000
