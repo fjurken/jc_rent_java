@@ -1,4 +1,4 @@
-package com.jc_rent.jc_rent;
+package com.fomichev.jc_rent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://localhost:8889/jcrent?autoReconnect=true&useSSL=false&createDatabaseIfNotExist=true
     username: root
     password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     database: MYSQL
     show-sql: false
@@ -18,7 +18,7 @@ spring:
 
 logging:
   level:
-    com.jc_rent.jc_rent: DEBUG
+    com.fomichev.jc_rent: DEBUG
 
 jwt:
   token:

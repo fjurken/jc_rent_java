@@ -1,4 +1,4 @@
-package com.jc_rent.jc_rent;
+package com.fomichev.jc_rent;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
